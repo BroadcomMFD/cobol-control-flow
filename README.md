@@ -2,7 +2,7 @@
 
 Cobol Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in the Cobol language. The extension has been designed to help Cobol developers to quickly comprehend and debug cobol programs with which they may not be familiar.
 
-Cobol Control Flow displays paragraphs of a Cobol program as graphical nodes inside an interactive graph. The edges of the graph are drawn based on the 'PERFORM' Cobol execution statements. You can interact with the graph to navigate to the relevant parts of the Cobol code, or alternatively you can navigate from the Cobol code to the to the relevant nodes on the graph.
+Cobol Control Flow displays paragraphs of a Cobol program as graphical nodes inside an interactive graph. The edges of the graph are drawn based on the 'PERFORM' Cobol execution statements. You can interact with the graph to navigate to the relevant parts of the Cobol code, or alternatively you can navigate from the Cobol code to the to the relevant nodes in the graph.
 
 ## Getting Started
 
@@ -32,21 +32,20 @@ To use the Cobol Control Flow interactive graph you must first generate it.
 3. Select *View Program Flow*.
     - The Cobol Control Flow graph is generated and displayed in a new window located to the side of the Cobol file.
 
-### Show a Paragraph in the Cobol Control Graph
+### Navigate through the code using Cobol Control Graph
 
 ![](CobolControlFlowHighlighting.gif)
 
 Once the Cobol Control Flow graph is generated you can navigate through the Cobol code by clicking on the individual nodes in the graph.
+
+Conversely you can navigate to the relevant node in the graph from the Cobol code.
 
 **Follow these steps:**
 
 1. In the Cobol file editor, right click inside a paragraph.
     - A context menu opens.
 2. Select *View Program Flow*.
-    - The node corresponding to the paragraph is highlighted in the Cobol Control Flow graph.
-
-Conversely you can also navigate to nodes from the Cobol code itself: 
-Click on a node inside the Cobol Control Flow graph to highlight the corresponding paragraph inside the Cobol file editor.
+    - The node corresponding to the paragraph is highlighted in the graph.
 
 ### Display Tooltips
 
