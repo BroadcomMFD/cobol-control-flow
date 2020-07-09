@@ -54,3 +54,26 @@ Conversely you can navigate to the relevant node in the graph from the Cobol cod
 ![](CobolControlFlow_tooltip.gif)
 
 Hovering over a node in the Cobol Control Flow graph displays first several lines of the corresponding paragraph.
+
+
+
+### Privacy Notice
+The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, aggregate such data with similar usage data of other Broadcom customers. Please, find more detailed information in License and Service Terms & Repository.
+
+For this data collection is used built-in Microsoft VS Code Telemetry, which can be disabled, if you do not want to send usage data.
+
+Current release of COBOL Control Flow will collect anonymous data for the following events:
+Activation of this VS Code extension
+Interaction with the nodes
+Use of zoom
+Collapse and expand of graph edges
+Count of lines of analyzed COBOL file (Performance)
+Parsing time (Performance)
+Rendering time (Performance)
+
+Each such event is logged with the following information:
+Event time
+Operating system and version
+Country or region
+Anonymous user and session ID
+Version numbers of Microsoft VS Code and COBOL Control Flow
