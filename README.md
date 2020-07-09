@@ -64,17 +64,17 @@ The extensions for Visual Studio Code developed by Broadcom Inc., including its 
 For this data collection is used built-in Microsoft VS Code Telemetry, which can be disabled, if you do not want to send usage data.
 
 Current release of COBOL Control Flow will collect anonymous data for the following events:
-Activation of this VS Code extension
-Interaction with the nodes
-Use of zoom
-Collapse and expand of graph edges
-Count of lines of analyzed COBOL file (Performance)
-Parsing time (Performance)
-Rendering time (Performance)
+- Activation of this VS Code extension
+- Interaction with the nodes
+- Use of zoom
+- Collapse and expand of graph edges
+- Count of lines of analyzed COBOL file (Performance)
+- Parsing time (Performance)
+- Rendering time (Performance)
 
 Each such event is logged with the following information:
-Event time
-Operating system and version
-Country or region
-Anonymous user and session ID
-Version numbers of Microsoft VS Code and COBOL Control Flow
+- Event time
+- Operating system and version
+- Country or region
+- Anonymous user and session ID
+- Version numbers of Microsoft VS Code and COBOL Control Flow
