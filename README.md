@@ -21,7 +21,7 @@ The extension is activated for Cobol files with the following file extensions:
 
 ###  Generate a Cobol Control Graph
 
-![](CobolControlFlowGeneration.gif)
+![](CobolControlFlow_generateFlow.gif)
 
 To use the Cobol Control Flow interactive graph you must first generate it.
 
@@ -29,14 +29,16 @@ To use the Cobol Control Flow interactive graph you must first generate it.
 1. Open a Cobol file.
 2. Right click inside the file editor.
     - A context menu opens.
-3. Select *View Program Flow*.
+3. Select *View COBOL Control Flow*.
     - The Cobol Control Flow graph is generated and displayed in a new window located to the side of the Cobol file.
 
 ### Navigate through the code using Cobol Control Graph
 
-![](CobolControlFlowHighlighting.gif)
+![](CobolControlFlow_highlightingCode.gif)
 
 Once the Cobol Control Flow graph is generated you can navigate through the Cobol code by clicking on the individual nodes in the graph.
+
+![](CobolControlFlow_highlightingNodes.gif)
 
 Conversely you can navigate to the relevant node in the graph from the Cobol code.
 
@@ -44,11 +46,11 @@ Conversely you can navigate to the relevant node in the graph from the Cobol cod
 
 1. In the Cobol file editor, right click inside a paragraph.
     - A context menu opens.
-2. Select *View Program Flow*.
+2. Select *View COBOL Control Flow*.
     - The node corresponding to the paragraph is highlighted in the graph.
 
 ### Display Tooltips
 
-![](CobolControlFlowTooltip.gif)
+![](CobolControlFlow_tooltip.gif)
 
 Hovering over a node in the Cobol Control Flow graph displays first several lines of the corresponding paragraph.
