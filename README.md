@@ -61,9 +61,9 @@ Hovering over a node in the Cobol Control Flow graph displays first several line
 
 
 ## Privacy Notice
-The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, aggregate such data with similar usage data of other Broadcom customers. Please, find more detailed information in License and Service Terms & Repository.
+The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, (collectively, “Usage Data”) and aggregate such Usage Data with similar  Usage Data of other Broadcom customers. Please, find more detailed information in License and Service Terms & Repository.
 
-For this data collection is used built-in Microsoft VS Code Telemetry, which can be disabled, if you do not want to send usage data.
+This data collection uses built-in Microsoft VS Code Telemetry, which can be disabled, at your sole discretion, if you do not want to send Usage Data.
 
 Current release of COBOL Control Flow will collect anonymous data for the following events:
 - Activation of this VS Code extension
