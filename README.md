@@ -30,7 +30,7 @@ To use the Cobol Control Flow interactive graph you must first generate it.
 **Follow these steps:**
 1. Open a Cobol file.
 2. Right click inside the file editor.
-    - A context menu opens.
+    - The context menu opens.
 3. Select *View COBOL Control Flow*.
     - The Cobol Control Flow graph is generated and displayed in a new window located to the side of the Cobol file.
 
@@ -47,7 +47,7 @@ Conversely you can navigate to the relevant node in the graph from the Cobol cod
 **Follow these steps:**
 
 1. In the Cobol file editor, right click inside a paragraph.
-    - A context menu opens.
+    - The context menu opens.
 2. Select *View COBOL Control Flow*.
     - The node corresponding to the paragraph is highlighted in the graph.
 
