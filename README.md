@@ -1,8 +1,8 @@
 # Cobol Control Flow
 
-Cobol Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in the Cobol language. The extension has been designed to help Cobol developers to quickly comprehend and debug cobol programs with which they may not be familiar.
+Cobol Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in the Cobol language. The extension is designed to help Cobol developers to quickly comprehend and debug cobol programs with which they may not be familiar.
 
-Cobol Control Flow displays paragraphs of a Cobol program as graphical nodes inside an interactive graph. The edges of the graph are drawn based on the 'PERFORM' Cobol execution statements. You can interact with the graph to navigate to the relevant parts of the Cobol code, or alternatively you can navigate from the Cobol code to the to the relevant nodes in the graph.
+Cobol Control Flow displays paragraphs of a Cobol program as graphical nodes inside an interactive graph. The edges of the graph are drawn based on the 'PERFORM' Cobol execution statements. You can interact with the graph to navigate to the relevant parts of the Cobol code, or you can navigate from the Cobol code to the relevant nodes in the graph.
 
 > **Note:** We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support) for COBOL code syntax awareness and to avoid generating Cobol Control Flow graphs from a syntactically faulty code.
 
@@ -23,9 +23,9 @@ The extension is activated for Cobol files with the following file extensions:
 
 ###  Generate a Cobol Control Graph
 
-![](CobolControlFlow_generateFlow.gif)
-
 To use the Cobol Control Flow interactive graph you must first generate it.
+
+![](CobolControlFlow_generateFlow.gif)
 
 **Follow these steps:**
 1. Open a Cobol file.
@@ -36,13 +36,13 @@ To use the Cobol Control Flow interactive graph you must first generate it.
 
 ### Navigate through the code using Cobol Control Graph
 
-![](CobolControlFlow_highlightingCode.gif)
-
 Once the Cobol Control Flow graph is generated you can navigate through the Cobol code by clicking on the individual nodes in the graph.
 
-![](CobolControlFlow_highlightingNodes.gif)
+![](CobolControlFlow_highlightingCode.gif)
 
 Conversely you can navigate to the relevant node in the graph from the Cobol code.
+
+![](CobolControlFlow_highlightingNodes.gif)
 
 **Follow these steps:**
 
@@ -53,12 +53,9 @@ Conversely you can navigate to the relevant node in the graph from the Cobol cod
 
 ### Display Tooltips
 
-![](CobolControlFlow_tooltip.gif)
-
 Hovering over a node in the Cobol Control Flow graph displays first several lines of the corresponding paragraph.
 
-
-
+![](CobolControlFlow_tooltip.gif)
 
 ## Privacy Notice
 The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, (collectively, “Usage Data”) and aggregate such Usage Data with similar  Usage Data of other Broadcom customers. Please, find more detailed information in License and Service Terms & Repository.
