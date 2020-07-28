@@ -1,10 +1,10 @@
 # COBOL Control Flow
 
-COBOL Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in the COBOL language. The extension is designed to help COBOL developers to quickly comprehend and debug COBOL programs with which they may not be familiar.
+COBOL Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly comprehend and debug COBOL programs with which they might not be familiar.
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
-> **Note:** We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness and to avoid generating COBOL Control Flow graphs from a syntactically faulty code.
+> **Note:** We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness and to avoid generating COBOL Control Flow graphs from syntactically faulty code.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ The extension is activated for COBOL files with the following file extensions:
 
 ###  Generate a COBOL Control Graph
 
-To use the COBOL Control Flow interactive graph you must first generate it.
+To use the COBOL Control Flow interactive graph, generate it in the VS Code interface.
 
 ![](CobolControlFlow_generateFlow.gif)
 
@@ -31,7 +31,7 @@ To use the COBOL Control Flow interactive graph you must first generate it.
 1. Open a COBOL file.
 2. Right click inside the file editor.
     - The context menu opens.
-3. Select *View COBOL Control Flow*.
+3. Select **View COBOL Control Flow**.
     - The COBOL Control Flow graph is generated and displayed in a new window located to the side of the COBOL file.
 
 ### Navigate through the code using COBOL Control Graph
@@ -48,7 +48,7 @@ Conversely you can navigate to the relevant node in the graph from the COBOL cod
 
 1. In the COBOL file editor, right click inside a paragraph.
     - The context menu opens.
-2. Select *View COBOL Control Flow*.
+2. Select **View COBOL Control Flow**.
     - The node corresponding to the paragraph is highlighted in the graph.
 
 ### Display Tooltips
