@@ -4,7 +4,9 @@ COBOL Control Flow is an extension for Visual Studio Code that provides graphica
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
-> **Note:** We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness and to avoid generating COBOL Control Flow graphs from syntactically faulty code.
+> **Note:** 
+> - The COBOL Control Flow extension only supports IBM Enterprise COBOL. Other versions of COBOL are not supported.
+> - We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness and to avoid generating COBOL Control Flow graphs from syntactically faulty code.
 
 ## Getting Started
 
