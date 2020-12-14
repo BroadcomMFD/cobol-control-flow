@@ -10,9 +10,10 @@ COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in 
 
 ## Getting Started
 
-### Prerequisites
+### Supported IDEs
 
 - Visual Studio Code version 1.46.0 or higher.
+- Eclipse Che
 
 ### Supported file types
 
