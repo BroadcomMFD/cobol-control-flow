@@ -23,7 +23,7 @@ The extension is activated for COBOL files with the following file extensions:
  - .cbl
 
 ### Compatibility
-The COBOL Control Flow extension is not compatible with other extensions that provide COBOL support. We recommend that you disable all other COBOL-related extensions to ensure that COBOL Control Flow functions correctly.
+The COBOL Control Flow extension is not compatible with other extensions that provide COBOL support except COBOL Language Support. We recommend that you disable all other COBOL-related extensions to ensure that COBOL Control Flow functions correctly.
 
 ## Using COBOL Control Flow
 
