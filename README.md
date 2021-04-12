@@ -15,7 +15,7 @@ COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in 
 - Visual Studio Code version 1.46.0 or higher.
 - Eclipse Che
 
-### Supported file types
+### Supported File Types
 
 The extension is activated for COBOL files with the following file extensions:
  - .cobol
@@ -30,45 +30,35 @@ The COBOL Control Flow extension is not compatible with other extensions that pr
 ###  Generate a COBOL Control Graph
 
 To use the COBOL Control Flow interactive graph, generate it in the VS Code interface.
-
-![](CobolControlFlow_generateFlow.gif)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_generateFlow.gif?raw=true)
 
 **Follow these steps:**
 1. Open a COBOL file.
 2. Right click inside the file editor.
     - The context menu opens.
-3. Select **View COBOL Control Flow**.
+3. Select **Generate COBOL Control Flow**.
     - The COBOL Control Flow graph is generated and displayed in a new window located to the side of the COBOL file.
 
-### Navigate through the code using COBOL Control Graph
+### Navigate Through the Code Using the COBOL Control Graph
 
 Once the COBOL Control Flow graph is generated you can navigate through the COBOL code by clicking on the individual nodes in the graph.
 
-![](CobolControlFlow_highlightingCode.gif)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_highlightingCode.gif?raw=true)
 
-Conversely you can navigate to the relevant node in the graph from the COBOL code.
-
-![](CobolControlFlow_highlightingNodes.gif)
-
-**Follow these steps:**
-
-1. In the COBOL file editor, right click inside a paragraph.
-    - The context menu opens.
-2. Select **View COBOL Control Flow**.
-    - The node corresponding to the paragraph is highlighted in the graph.
-
+You can also click anywhere in the COBOL code to navigate to the relevant node in the graph.
+    
 ### Display Tooltips
 
-Hovering over a node in the COBOL Control Flow graph displays first several lines of the corresponding paragraph.
+Hover over a node in the COBOL Control Flow graph to display the first several lines of the corresponding paragraph.
 
-![](CobolControlFlow_tooltip.gif)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_tooltip.gif?raw=true)
 
 ## Privacy Notice
-The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, (collectively, “Usage Data”) and aggregate such Usage Data with similar  Usage Data of other Broadcom customers. Please, find more detailed information in License and Service Terms & Repository.
+The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, (collectively, “Usage Data”) and aggregate such Usage Data with similar Usage Data of other Broadcom customers. Please find more detailed information in License and Service Terms & Repository.
 
 This data collection uses built-in Microsoft VS Code Telemetry, which can be disabled, at your sole discretion, if you do not want to send Usage Data.
 
-Current release of COBOL Control Flow will collect anonymous data for the following events:
+The current release of COBOL Control Flow collects anonymous data for the following events:
 - Activation of this VS Code extension
 - Interaction with the nodes
 - Use of zoom
@@ -76,6 +66,7 @@ Current release of COBOL Control Flow will collect anonymous data for the follow
 - Count of lines of analyzed COBOL file (Performance)
 - Parsing time (Performance)
 - Rendering time (Performance)
+- Errors
 
 Each such event is logged with the following information:
 - Event time
