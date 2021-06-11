@@ -2,6 +2,9 @@
 
 All notable changes to the Cobol Control Flow extension are documented in this file.
 
+## [0.4.0] - 2021-06-08
+- Copybook support
+
 ## [0.3.3] - 2021-04-06
 - New control flow graph analysis logic
 - Unreachable paragraphs and sections no longer shown on the graph

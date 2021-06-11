@@ -4,9 +4,11 @@ COBOL Control Flow is an extension for Visual Studio Code that provides graphica
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
+COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including [COBOL Langage Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support), [HLASM Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support), [Explorer for Endevor](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor), [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and [Debugger for Mainframe](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe) extensions.
+
 > **Note:** 
 > - The COBOL Control Flow extension only supports IBM Enterprise COBOL. Other versions of COBOL are not supported.
-> - We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness and to avoid generating COBOL Control Flow graphs from syntactically faulty code.
+> - We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness, to avoid generating COBOL Control Flow graphs from syntactically faulty code, and to enable copybook support features.
 
 ## Getting Started
 
@@ -52,6 +54,12 @@ You can also click anywhere in the COBOL code to navigate to the relevant node i
 Hover over a node in the COBOL Control Flow graph to display the first several lines of the corresponding paragraph.
 
 ![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_tooltip.gif?raw=true)
+
+## Copybook Support
+
+COBOL Control Flow displays copybooks on the interactive graph as long as you have the COBOL Language Support extension installed and paths to your copybook folders are correctly configured in the COBOL Language Support extension settings. 
+
+For instructions on how to do set paths to your copybook folders, see the **Copybook Support** section of the **[COBOL Language Support documentation](https://github.com/eclipse/che-che4z-lsp-for-cobol#readme)**.
 
 ## Privacy Notice
 The extensions for Visual Studio Code developed by Broadcom Inc., including its corporate affiliates and subsidiaries, ("Broadcom") are provided free of charge, but in order to better understand and meet its users’ needs, Broadcom may collect, use, analyze and retain anonymous users’ metadata and interaction data, (collectively, “Usage Data”) and aggregate such Usage Data with similar Usage Data of other Broadcom customers. Please find more detailed information in License and Service Terms & Repository.
