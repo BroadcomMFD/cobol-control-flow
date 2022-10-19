@@ -1,14 +1,22 @@
+<div id="header" align="center">
+
+[![GitHub issues](https://img.shields.io/github/issues-raw/BroadcomMFD/cobol-control-flow?style=flat-square)](https://github.com/BroadcomMFD/cobol-control-flow/issues)
+[![slack](https://img.shields.io/badge/chat-on%20Slack-blue?style=flat-square)](https://communityinviter.com/apps/che4z/code4z)
+</div>
+
 # COBOL Control Flow
 
 COBOL Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly comprehend and debug COBOL programs with which they might not be familiar.
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
-COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including [COBOL Langage Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support), [HLASM Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support), [Explorer for Endevor](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor), [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and [Debugger for Mainframe](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe) extensions.
+COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including extensions for language support, data editing, testing, and source code management. We recommend using COBOL Control Flow along with [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) and [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to unlock all features of the extension. All three extensions are included in the Code4z extension pack.
 
-> **Note:** 
-> - The COBOL Control Flow extension only supports IBM Enterprise COBOL. Other versions of COBOL are not supported.
-> - We recommend you also install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) for COBOL code syntax awareness, to avoid generating COBOL Control Flow graphs from syntactically faulty code, and to enable copybook support features.
+<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v2 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/explorer/color/zowe-conformant-zowev2-explorer-color.png" width=20% height=20% /></a>
+
+## Prerequisites
+
+Before you use COBOL Control Flow, ensure that you have another extension installed and enabled that recognises COBOL files. We recommend that you use [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support).
 
 ## Getting Started
 
@@ -17,25 +25,21 @@ COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/item
 - Visual Studio Code version 1.46.0 or higher.
 - Github Codespaces
 
-### Supported File Types
-
-The extension is activated for COBOL files with the following file extensions:
- - .cobol
- - .cob
- - .cbl
-
 ### Compatibility
 
-The COBOL Control Flow extension is not compatible with other extensions that provide COBOL support except COBOL Language Support. We recommend that you disable all other COBOL-related extensions to ensure that COBOL Control Flow functions correctly.
+The COBOL Control Flow extension only supports IBM Enterprise COBOL. Other versions of COBOL are not supported.
 
-### Integration with COBOL Language Support
+### Integration with COBOL Language Support and Zowe Explorer
 
-We recommend that you download and install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) to enhance the functionality of COBOL Control Flow. Advantages of integrating COBOL Control Flow with COBOL Language Support include:
+We recommend that you download and install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) and [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to enhance the functionality of COBOL Control Flow. Advantages of integrating COBOL Control Flow with these two extensions include:
 
-- Support for other dialects of COBOL such as IDMS and MAID
-- Support for copybooks, including IDMS copybooks, stored both locally in your workspace and on mainframe data sets
-- Support for EXEC CICS and EXEC SQL statements
-- More precise graphs generated by the COBOL Language Support code parser
+- Ability to load your data sets containing COBOL code directly from the Zowe Explorer data set tree. 
+- Support for copybooks, including IDMS copybooks, stored both locally in your workspace and on mainframe data sets.
+- Support for EXEC CICS and EXEC SQL statements.
+- Support for dialects of COBOL such as IDMS.
+- More precise graphs generated by the COBOL Language Support code parser.
+
+Both the COBOL Language Support and Zowe Explorer extensions can be installed using the [Code4z extension pack](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack).
 
 ## Using COBOL Control Flow
 
@@ -70,6 +74,9 @@ Hover over a node in the COBOL Control Flow graph to display the first several l
 COBOL Control Flow displays copybooks, including IDMS copybooks, on the interactive graph, as long as you have the COBOL Language Support extension installed and configured. You can configure COBOL Language Support to look for copybooks that are stored locally, or retrieve copybooks from mainframe data sets. To retrieve copybooks from mainframe data sets, the [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) extension is also required.
 
 For instructions on how to set paths to your copybook folders, see the **Copybook Support** section of the **[COBOL Language Support documentation](https://github.com/eclipse/che-che4z-lsp-for-cobol#readme)**.
+
+## Further Reading
+- [Visualization of COBOL Programs on VS Code](https://medium.com/@pamela.deason/visualization-of-cobol-programs-in-vs-code-4e67210b8b9f) (on Medium)
 
 ## Technical Assistance and Support for COBOL Control Flow
 
