@@ -2,6 +2,19 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.0.3] - 2022-10-18
+- COBOL Language Support or a similar COBOL extension is now required to detect COBOL files.
+- Bug fixes
+- Readme update
+
+## [1.0.2] - 2022-06-29
+- New error and warning messages
+- Bug fixes
+- Readme update
+
+## [1.0.1] - 2022-05-06
+- Fix missing paragraphs on the graph
+
 ## [1.0.0] - 2022-04-21
 - Increase accuracy of graph
 
