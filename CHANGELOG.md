@@ -2,6 +2,11 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.0.4] - 2022-11-16
+- Remove graph generation menu for copybooks.
+- Fix graph for EXEC CICS RETURN statement.
+- Fix graph for AT END read file statement.
+
 ## [1.0.3] - 2022-10-18
 - COBOL Language Support or a similar COBOL extension is now required to detect COBOL files.
 - Bug fixes
