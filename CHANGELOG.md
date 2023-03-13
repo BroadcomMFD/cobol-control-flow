@@ -2,6 +2,10 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.0.5] - 2023-03-09
+- EXIT SECTION statement fix and SECTION search update in engine
+- Bug fixes
+
 ## [1.0.4] - 2022-11-16
 - Remove graph generation menu for copybooks.
 - Fix graph for EXEC CICS RETURN statement.
