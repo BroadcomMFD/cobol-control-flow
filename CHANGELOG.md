@@ -2,6 +2,18 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.0.8] - 2024-01-22
+- Bug fixes
+
+## [1.0.7] - 2024-01-15
+- Bug fixes
+- Readme update
+
+## [1.0.6] - 2023-01-04
+- Support for 'GOBACK' statement
+- Support for 'EXIT PARAGRAPH' statement
+- Bug fixes
+
 ## [1.0.5] - 2023-03-09
 - EXIT SECTION statement fix and SECTION search update in engine
 - Bug fixes
