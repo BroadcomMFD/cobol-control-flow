@@ -9,9 +9,10 @@ All notable changes to the COBOL Control Flow extension are documented in this f
 - Bug fixes
 - Readme update
 
-## [1.0.6] - 2023-01-04
+## [1.0.6] - 2024-01-04
 - Support for 'GOBACK' statement
 - Support for 'EXIT PARAGRAPH' statement
+- Support for 'PERFORM THRU' statement
 - Bug fixes
 
 ## [1.0.5] - 2023-03-09
@@ -37,7 +38,7 @@ All notable changes to the COBOL Control Flow extension are documented in this f
 - Fix missing paragraphs on the graph
 
 ## [1.0.0] - 2022-04-21
-- Increase accuracy of graph
+- Increase accuracy of the graph
 
 ## [0.4.1] - 2022-02-15
 - Modified error and warning messages
