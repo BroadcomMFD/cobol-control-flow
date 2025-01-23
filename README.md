@@ -46,7 +46,7 @@ Both the COBOL Language Support and Zowe Explorer extensions can be installed us
 ###  Generate a COBOL Control Graph
 
 To use the COBOL Control Flow interactive graph, generate it in the VS Code interface.
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_generateFlow.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_generateFlow.gif?raw=true)
 
 **Follow these steps:**
 1. Open a COBOL file.
@@ -59,7 +59,7 @@ To use the COBOL Control Flow interactive graph, generate it in the VS Code inte
 
 Once the COBOL Control Flow graph is generated you can navigate through the COBOL code by clicking on the individual nodes in the graph.
 
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_highlightingCode.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_highlightingCode.gif?raw=true)
 
 You can also click anywhere in the COBOL code to navigate to the relevant node in the graph.
     
@@ -67,7 +67,7 @@ You can also click anywhere in the COBOL code to navigate to the relevant node i
 
 Hover over a node in the COBOL Control Flow graph to display the first several lines of the corresponding paragraph.
 
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/master/CobolControlFlow_tooltip.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_tooltip.gif?raw=true)
 
 ## Copybook Support
 
