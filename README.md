@@ -1,7 +1,8 @@
 <div id="header" align="center">
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/BroadcomMFD/cobol-control-flow?style=flat-square)](https://github.com/BroadcomMFD/cobol-control-flow/issues)
-[![slack](https://img.shields.io/badge/chat-on%20Slack-blue?style=flat-square)](https://communityinviter.com/apps/che4z/code4z)
+[![slack](https://img.shields.io/badge/chat-on%20Slack-blue?style=flat-square)](https://join.slack.com/t/che4z/shared_invite/zt-22b0064vn-nBh~Fs9Fl47Prp5ItWOLWw
+)
 </div>
 
 # COBOL Control Flow
@@ -10,19 +11,21 @@ COBOL Control Flow is an extension for Visual Studio Code that provides graphica
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
-COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including extensions for language support, data editing, testing, and source code management. We recommend using COBOL Control Flow along with [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) and [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to unlock all features of the extension. All three extensions are included in the Code4z extension pack.
+COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including extensions for language support, data editing, testing, and source code management. For an interactive overview of Code4z, see the [Code4z Developer Cockpit](https://mainframe.broadcom.com/code4z-developer-cockpit).
+
+COBOL Control Flow requires [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) to run. We also recommend installing [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to unlock all features of the extension. All three extensions are included in the Code4z extension pack.
 
 <a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v2 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/explorer/color/zowe-conformant-zowev2-explorer-color.png" width=20% height=20% /></a>
 
 ## Prerequisites
 
-Before you use COBOL Control Flow, ensure that you have another extension installed and enabled that recognises COBOL files. We recommend that you use [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support).
+- [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) to run
 
 ## Getting Started
 
 ### Supported IDEs
 
-- Visual Studio Code version 1.46.0 or higher.
+- Visual Studio Code version 1.46.0 or higher
 - Github Codespaces
 
 ### Compatibility
@@ -31,7 +34,7 @@ The COBOL Control Flow extension only supports IBM Enterprise COBOL. Other versi
 
 ### Integration with COBOL Language Support and Zowe Explorer
 
-We recommend that you download and install [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) and [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to enhance the functionality of COBOL Control Flow. Advantages of integrating COBOL Control Flow with these two extensions include:
+We recommend that you download and install [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and configure COBOL Language Support to enhance the functionality of COBOL Control Flow. Advantages of integrating COBOL Control Flow with these two extensions include:
 
 - Ability to load your data sets containing COBOL code directly from the Zowe Explorer data set tree. 
 - Support for copybooks, including IDMS copybooks, stored both locally in your workspace and on mainframe data sets.
