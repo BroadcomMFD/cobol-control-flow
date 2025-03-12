@@ -11,11 +11,11 @@ COBOL Control Flow is an extension for Visual Studio Code that provides graphica
 
 COBOL Control Flow displays paragraphs of a COBOL program as graphical nodes in an interactive graph. The edges of the graph are drawn based on the 'PERFORM' COBOL execution statements. You can interact with the graph to navigate to the relevant parts of the COBOL code, or you can navigate from the COBOL code to the relevant nodes in the graph.
 
-COBOL Control Flow is part of [Code4z](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack), an all-round package that offers a modern experience for mainframe application developers, including extensions for language support, data editing, testing, and source code management. For an interactive overview of Code4z, see the [Code4z Developer Cockpit](https://mainframe.broadcom.com/code4z-developer-cockpit).
+COBOL Control Flow is part of [Code4z](https://techdocs.broadcom.com/code4z), an all-round VS Code extension package that offers a modern experience for mainframe application developers, including tools for language support, data editing, testing, and source code management. For an interactive overview of Code4z, see the [Code4z Developer Cockpit](https://mainframe.broadcom.com/code4z-developer-cockpit).
 
 COBOL Control Flow requires [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support) to run. We also recommend installing [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) to unlock all features of the extension. All three extensions are included in the Code4z extension pack.
 
-<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v2 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/explorer/color/zowe-conformant-zowev2-explorer-color.png" width=20% height=20% /></a>
+<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v3 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev3/explorer-vs-code/color/zowe-conformant-zowev3-explorer-vs-code-color.png" width=20% height=20% /></a>
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ Both the COBOL Language Support and Zowe Explorer extensions can be installed us
 ###  Generate a COBOL Control Graph
 
 To use the COBOL Control Flow interactive graph, generate it in the VS Code interface.
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_generateFlow.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/generate_flow.gif?raw=true)
 
 **Follow these steps:**
 1. Open a COBOL file.
@@ -62,24 +62,44 @@ To use the COBOL Control Flow interactive graph, generate it in the VS Code inte
 
 Once the COBOL Control Flow graph is generated you can navigate through the COBOL code by clicking on the individual nodes in the graph.
 
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_highlightingCode.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/highlighting_code.gif?raw=true)
 
 You can also click anywhere in the COBOL code to navigate to the relevant node in the graph.
+
+If you change the code, use the **Reset graph** button in the toolbar to update the graph.
+
+To return to the program root in the graph and in the code, use the **Focus on Program Root** button in the toolbar.
     
 ### Display Tooltips
 
 Hover over a node in the COBOL Control Flow graph to display the first several lines of the corresponding paragraph.
 
-![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/CobolControlFlow_tooltip.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/tooltip.gif?raw=true)
+
+### Export Options
+
+The CCF graph can be exported to PNG, JSON or DOT string formats.
+
+To download a PNG of the graph, use the **Download PNG** button in the toolbar.
+
+To export the graph as a JSON or DOT string file, press **F1** to open the command palette and run the command **COBOL Control Flow: Export CCF Graph to JSON** or **COBOL Control Flow: Export CCF Graph to DOT Language**. The resulting code opens in the VS Code editor window.
+
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/export_options.gif?raw=true)
 
 ## Copybook Support
 
-COBOL Control Flow displays copybooks, including IDMS copybooks, on the interactive graph, as long as you have the COBOL Language Support extension installed and configured. You can configure COBOL Language Support to look for copybooks that are stored locally, or retrieve copybooks from mainframe data sets. To retrieve copybooks from mainframe data sets, the [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) extension is also required.
+COBOL Control Flow displays paragraphs in copybooks on the interactive graph as long as they are stored in a folder in your workspace. You can configure COBOL Language Support to restrict local copybook support to certain folders or processor groups, enable support for IDMS copybooks, and retrieve copybooks from mainframe data sets and USS files. For remote copybook retrieval, the [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) extension is also required.
 
-For instructions on how to set paths to your copybook folders, see the **Copybook Support** section of the **[COBOL Language Support documentation](https://github.com/eclipse/che-che4z-lsp-for-cobol#readme)**.
+For instructions on how to configure COBOL Language Support, see the **Copybook Support** section of the **[COBOL Language Support documentation](https://github.com/eclipse/che-che4z-lsp-for-cobol#readme)**.
 
 ## Further Reading
 - [Visualization of COBOL Programs on VS Code](https://medium.com/@pamela.deason/visualization-of-cobol-programs-in-vs-code-4e67210b8b9f) (on Medium)
+
+## Known Issues
+
+The COBOL USE statement is not supported by COBOL Control Flow. A COBOL program containing this statement generates an incorrect graph.
+
+If you encounter any other statements which are not processed correctly by COBOL Control Flow, please raise an [issue](https://github.com/BroadcomMFD/cobol-control-flow/issues?q=is%3Aissue+is%3Aopen+label%3A%22missing+statements%22) on the COBOL Control Flow GitHub repository. 
 
 ## Technical Assistance and Support for COBOL Control Flow
 
