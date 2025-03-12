@@ -2,6 +2,37 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.2.0] - 2025-03-14
+- New UI design, top-to-bottom orientation
+- Toolbar for easy access
+- Dark/Light color schema support
+- Styling edges on hover for better tracking  
+- 'COBOL Control Flow:' command palette prefix
+- DOT/JSON export options 
+- Improved code snippet accuracy 
+- Bug fixes
+- Readme update
+
+## [1.1.1] - 2025-02-28
+- Support for 'SQL WHENEVER'
+- Support for 'CICS HANDLE ABEND'
+- Support for 'INLINE PERFORM'
+- Support for 'PERFORM' with 'UNTIL' phrase
+- Support for 'EXIT PERFORM'
+- Support for 'CICS RETURN'
+- Fall-thru diagnostic
+- Performance improvements
+- Bug fixes
+- Readme update
+
+## [1.1.0] - 2024-04-04
+- Support for 'XML PARSE'
+- Support for 'SORT'
+- Support for 'MERGE'
+- Support for 'ALTER'
+- Support for 'EXEC CICS RETURN'
+- Bug fixes
+
 ## [1.0.8] - 2024-01-22
 - Bug fixes
 
