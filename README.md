@@ -49,7 +49,7 @@ Both the COBOL Language Support and Zowe Explorer extensions can be installed us
 ###  Generate a COBOL Control Graph
 
 To use the COBOL Control Flow interactive graph, generate it in the VS Code interface.
-![](/generate_flow.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/generate_flow.gif?raw=true)
 
 **Follow these steps:**
 1. Open a COBOL file.
@@ -62,7 +62,7 @@ To use the COBOL Control Flow interactive graph, generate it in the VS Code inte
 
 Once the COBOL Control Flow graph is generated you can navigate through the COBOL code by clicking on the individual nodes in the graph.
 
-![](/highlighting_code.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/highlighting_code.gif?raw=true)
 
 You can also click anywhere in the COBOL code to navigate to the relevant node in the graph.
 
@@ -74,7 +74,7 @@ To return to the program root in the graph and in the code, use the **Focus on P
 
 Hover over a node in the COBOL Control Flow graph to display the first several lines of the corresponding paragraph.
 
-![](/tooltip.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/tooltip.gif?raw=true)
 
 ### Export Options
 
@@ -84,7 +84,7 @@ To download a PNG of the graph, use the **Download PNG** button in the toolbar.
 
 To export the graph as a JSON or DOT string file, press **F1** to open the command palette and run the command **COBOL Control Flow: Export CCF Graph to JSON** or **COBOL Control Flow: Export CCF Graph to DOT Language**. The resulting code opens in the VS Code editor window.
 
-![](/export_options.gif?raw=true)
+![](https://github.com/BroadcomMFD/cobol-control-flow/blob/main/export_options.gif?raw=true)
 
 ## Copybook Support
 
