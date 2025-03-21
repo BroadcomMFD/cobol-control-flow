@@ -2,7 +2,7 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
-## [1.2.0] - 2025-03-14
+## [1.2.0] - 2025-03-21
 - New UI design, top-to-bottom orientation
 - Toolbar for easy access
 - Dark/Light color schema support
