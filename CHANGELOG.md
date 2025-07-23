@@ -2,6 +2,9 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.2.2] - 2025-07-22
+- Readme update
+
 ## [1.2.1] - 2025-04-07
 - Support for the new COBOL LS API
 - Bug fixes
@@ -10,10 +13,10 @@ All notable changes to the COBOL Control Flow extension are documented in this f
 - New UI design, top-to-bottom orientation
 - Toolbar for easy access
 - Dark/Light color schema support
-- Styling edges on hover for better tracking  
+- Styling edges on hover for better tracking
 - 'COBOL Control Flow:' command palette prefix
-- DOT/JSON export options 
-- Improved code snippet accuracy 
+- DOT/JSON export options
+- Improved code snippet accuracy
 - Bug fixes
 - Readme update
 
