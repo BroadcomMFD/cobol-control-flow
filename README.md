@@ -22,7 +22,9 @@ COBOL Control Flow is part of the [Code4z](https://techdocs.broadcom.com/code4z)
 
 ## Address Software Requirements
 
-- Visual Studio Code version 1.46.0 or higher or Github Codespaces
+Before you use COBOL Control Flow, ensure that you have the following components installed on your workstation:
+
+- Visual Studio Code or Github Codespaces
 - [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.COBOL-language-support)
 
 ## Integrate with COBOL Language Support and Zowe Explorer
@@ -85,7 +87,7 @@ To export the graph as a JSON or DOT string file, press **F1** to open the comma
 
 ## Copybook Support
 
-COBOL Control Flow displays paragraphs in copybooks on the interactive graph as long as they are stored in a folder in your workspace. You can configure COBOL Language Support to restrict local copybook support to certain folders or processor groups, enable support for IDMS copybooks, and retrieve copybooks from mainframe data sets and USS files. For remote copybook retrieval, the [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) extension is also required.
+COBOL Control Flow displays paragraphs in copybooks on the interactive graph as long as they are stored in a folder in your workspace. You can configure COBOL Language Support to specify local folders that contain copybooks, configure processor groups, enable support for IDMS copybooks, and resolve copybooks that are stored in mainframe data sets and USS files. To enable remote copybook support, the [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) extension is also required.
 
 For instructions on how to configure COBOL Language Support, see the **Copybook Support** section of the **[COBOL Language Support documentation](https://github.com/eclipse/che-che4z-lsp-for-cobol#readme)**.
 
