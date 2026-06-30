@@ -2,6 +2,12 @@
 
 All notable changes to the COBOL Control Flow extension are documented in this file.
 
+## [1.2.3] - 2026-06-30
+- Highlight the graph node when triggering "Go to definition" from the code window.
+- Enhance arrow color coding to improve visual clarity.
+- Implement minimum/maximum zoom limits and graph panning constraints.
+- Remove the legacy COBOL Language Server API.
+
 ## [1.2.2] - 2025-07-22
 - Readme update
 
